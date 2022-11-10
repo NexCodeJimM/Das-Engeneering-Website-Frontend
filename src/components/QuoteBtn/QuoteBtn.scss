@@ -1,0 +1,22 @@
+.app__btn {
+    background: var(--blue-color);
+    display: flex;
+
+    border-radius: 5px;
+    padding: 10px;
+    align-items: center;
+
+    p {
+        color: #ffffff;
+        font-family: var(--font-base);
+    }
+
+    span {
+        color: #ffffff;
+        padding-left: 8px;
+    }
+
+    &:hover {
+        background: var(--secondary-blue);
+    }
+}

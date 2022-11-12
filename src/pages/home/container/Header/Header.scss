@@ -1,0 +1,112 @@
+.app__main-header {
+    width: 100%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fbf1de;
+
+    @media screen and (min-width: 2000px) {
+        padding-top: 3rem;
+      }
+    
+    @media screen and (max-width: 1200px) {
+        flex-direction: column;
+    }
+    
+    @media screen and (max-width: 450px) {
+        padding: 1rem 1rem 2rem;
+    }
+}
+
+.app__header-caption {
+
+    padding: 0.5rem 2rem;
+    width: 600px;
+    margin-left: 35px;
+
+    h1 {
+        font-family: var(--font-base);
+        font-size: 70px;
+        color: var(--blue-color);
+    }
+
+    p {
+        font-family: var(--font-base);
+        font-size: 12px;
+        text-align: justify;
+        color: var(--gray-color);
+
+        padding-top: 1rem;
+    }
+
+    @media screen and (max-width: 1200px) {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        h1 {
+            font-size: 50px;
+            margin: 0.5rem 4rem;
+        }
+
+        p {
+            margin: 0.5rem 4rem; 
+        }
+    }
+}
+
+.app__header-image {
+    align-items: flex-end;
+    display: flex;
+    justify-content: flex-end;
+    height: 100%;
+
+    padding: 0rem 0rem;
+
+    img {
+        width: 100%;
+        height: 100%;
+    }
+}
+
+.app__buttons {
+    display: flex;
+
+    .app__button-submit {
+        margin-top: 2rem;
+    
+        .app__read-more {
+            background: var(--secondary-color);
+            border: none;
+            padding: 0.5rem 1rem;
+
+            font-family: var(--font-base);
+            color: #fff;
+
+            &:hover {
+                background-color: #f49623;
+                transition: all 0.4s ease-in-out;
+            }
+        }
+
+        .app__contact-btn {
+            background: transparent;
+            border: var(--blue-color) solid 2px;
+            padding: 0.4rem 1rem;
+            margin-left: 10px;
+
+            font-family: var(--font-base);
+            color: var(--blue-color);
+            font-weight: 500;
+
+            &:hover {
+                background: var(--blue-color);
+                color: #fff;
+                transition: all 0.4s ease-in-out;
+            }
+        }
+    }
+}

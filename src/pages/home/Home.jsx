@@ -1,8 +1,17 @@
-import React from 'react'
+import React from 'react';
+
+import './Home.scss';
+
+import { Header, Welcome, Features, RecentProjects } from './container';
 
 const Home = () => {
   return (
-    <div>Home</div>
+    <>
+      <Header />
+      <Welcome />
+      <Features />
+      <RecentProjects />
+    </>
   )
 }
 

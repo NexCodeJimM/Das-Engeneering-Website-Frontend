@@ -1,0 +1,46 @@
+.main {
+    width: 300px;
+    height: 250px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem;
+
+    background: #FAFAFA;
+    border-radius: 10px;
+    border-top: var(--secondary-color) solid 2px;
+
+    box-shadow: rgba(25, 60, 77, 0.4) 0px 25px 20px -20px;
+    
+    .card-icon {
+        padding: 0.5rem;
+
+        img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            margin-top: 20px;
+
+            border: #fff solid 10px;
+            box-shadow: 1px 1px 3px #888888;
+    
+        }
+    }
+
+    p {
+        font-family: var(--font-base);
+        color: var(--secondary-color);
+        text-align: center;
+        text-transform: uppercase;
+
+        padding-bottom: 2rem;
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+    }
+
+    &:hover {
+        margin-top: -5px;
+    }
+}

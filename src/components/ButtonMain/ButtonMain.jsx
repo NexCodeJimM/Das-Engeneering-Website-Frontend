@@ -1,16 +1,17 @@
-import React from 'react';
+import React from 'react'
 
-import './ButtonMain.scss';
+import { Link } from 'react-router-dom';
 
-const ButtonMain = (props) => {
+import './ButtonMain.scss'
 
-    const [title] = (props);
-
+const ButtonMain = ({title, link, icon}) => {
   return (
-    <>
-        <button title={title}/>
-    </>
+    <div className='main-btn'>
+      <Link to={link}>
+        <p>{title} <span>{icon}</span></p>
+      </Link>
+    </div>
   )
 }
 
-export default ButtonMain;
+export default ButtonMain

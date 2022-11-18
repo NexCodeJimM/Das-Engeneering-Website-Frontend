@@ -2,7 +2,7 @@ import React from 'react';
 
 import './Home.scss';
 
-import { Header, Features, RecentProjects } from './container';
+import { Header, Features, CTA, RecentProjects, FAQ } from './container';
 
 const Home = () => {
   return (
@@ -10,6 +10,8 @@ const Home = () => {
       <Header />
       <Features />
       <RecentProjects />
+      <FAQ />
+      <CTA />
     </>
   )
 }

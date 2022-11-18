@@ -1,0 +1,31 @@
+.container {
+    width: 30px;
+    height: 30px;
+    border: #fff solid 2px;
+    border-radius: 10px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    margin-right: 30px;
+
+    .icon {     
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        svg {
+            color: white;
+        }
+    }
+
+    &:hover {
+        background: var(--secondary-color);
+        border: var(--secondary-color) solid 2px;
+
+        svg {
+            color: var(--blue-color);
+        }
+    }
+}

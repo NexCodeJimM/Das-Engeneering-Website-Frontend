@@ -4,3 +4,7 @@ export { default as QuoteBtn } from './QuoteBtn/QuoteBtn';
 export { default as TopHeader } from './TopHeader/TopHeader';
 export { default as ButtonMain } from './ButtonMain/ButtonMain';
 export { default as ServiceCard } from './ServiceCard/ServiceCard';
+export { default as Accordion } from './Accordion/Accordion';
+export { default as ContactBtn } from './ContactBtn/ContactBtn';
+export { default as SocialLinks } from './SocialLinks/SocialLinks';
+export { default as Copyright } from './Copyright/Copyright'

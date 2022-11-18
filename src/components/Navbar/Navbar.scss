@@ -171,22 +171,26 @@
 
             .quote-btn-menu {
                 background: var(--blue-color);
-                padding: 1rem 1rem;
+                padding: 0.5rem 2rem;
                 border-radius: 5px;
 
                 display: flex;
-                flex-direction: column;
+                flex-direction: row;
                 align-items: center;
                 justify-content: center;
 
                 p {
                     color: #ffffff;
+                    position: relative;
+                    bottom: 10px;
                 }
 
                 svg {
-                    width: 25px;
-                    height: 25px;
+                    width: 18px;
+                    height: 18px;
                     color: #ffffff;
+                    position: relative;
+                    top: 10px;
                 }
             }
         }

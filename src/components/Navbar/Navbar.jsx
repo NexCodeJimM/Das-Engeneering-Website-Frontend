@@ -83,7 +83,7 @@ const Navbar = () => {
                             <Link to="/projects" onClick={() => setToggle(false)}>Projects</Link>
                           </li>
                           <li className='quote-btn-menu'>
-                            <Link to="/contact" onClick={() => setToggle(false)}><p>Get a Quote</p><span><BiPaperPlane /></span></Link>
+                            <Link to="/contact" onClick={() => setToggle(false)}><p>Get a Quote <span><BiPaperPlane /></span></p></Link>
                           </li>
                       </ul>
 

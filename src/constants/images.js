@@ -5,6 +5,8 @@ import meeting from '../assets/meeting.png';
 import machinery from '../assets/machinery.jpg';
 import projectmanagement from '../assets/pmanagement.jpg';
 import brookers from '../assets/brookers.jpg';
+import thinking from '../assets/thinking.png'
+import footerLogo from '../assets/Das-engeneering-logo-white.png'
 
 export default {
     logo,
@@ -14,4 +16,6 @@ export default {
     projectmanagement,
     brookers,
     machinery,
+    thinking,
+    footerLogo
 };

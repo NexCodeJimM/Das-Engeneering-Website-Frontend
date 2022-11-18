@@ -1,5 +1,5 @@
 import './App.scss';
-import { Navbar, TopHeader, Footer } from './components';
+import { Navbar, TopHeader, Footer, Copyright } from './components';
 
 
 function App() {
@@ -8,6 +8,7 @@ function App() {
       <TopHeader />
       <Navbar />
       <Footer />
+      <Copyright />
     </div>
   );
 }

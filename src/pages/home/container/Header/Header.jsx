@@ -36,8 +36,7 @@ const Header = () => {
 
         <motion.div 
             className="app__header-image"
-            whileInView={{ x: [100, 0], opacity: [0, 1] }}
-            transition={{ duration: 0.5 }}
+            
         >
             <img src={ images.meeting } alt="header-image" />
         </motion.div>

@@ -1,10 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap");
 @import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;500;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&family=Raleway:wght@400;500;800&display=swap');
 
 :root {
-  --font-base: 'Montserrat', sans-serif;
-  --font-body: 'Source Code Pro', monospace;
+  --font-base: 'Raleway', sans-serif;
+  --font-body: 'Montserrat', sans-serif;
 
   --primary-color: #edf2f8;
   --secondary-color: #FFA840;

@@ -10,3 +10,4 @@ export { default as SocialLinks } from './SocialLinks/SocialLinks';
 export { default as Copyright } from './Copyright/Copyright';
 export { default as ServicesTabs } from './ServicesTabs/ServicesTabs';
 export { default as QuotationForm } from './QuotationForm/QuotationForm';
+export { default as ContactForm } from './ContactForm/ContactForm';

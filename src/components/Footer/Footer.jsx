@@ -90,6 +90,12 @@ const Footer = () => {
               </li>
 
               <li>
+                <Link to='/quotation'>
+                  Get a Quotation
+                </Link>
+              </li>
+
+              <li>
                 <Link to='/contact'>
                   Contact Us
                 </Link>

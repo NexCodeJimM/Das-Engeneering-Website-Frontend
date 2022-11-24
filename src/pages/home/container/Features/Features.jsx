@@ -30,7 +30,7 @@ const Features = () => {
       >
         <ServiceCard icon={images.projectmanagement} title="Project Management"/>
         <ServiceCard icon={images.machinery} title="Heavy & Light Machinery & Equipment Rental"/>
-        <ServiceCard icon={images.brookers} title="Commercial Brookers"/>
+        <ServiceCard icon={images.brookers} title="Commercial Brokers"/>
       </motion.div>
       
       <motion.div 

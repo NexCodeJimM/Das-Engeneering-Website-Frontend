@@ -18,7 +18,7 @@ const CallToAction = () => {
         <ContactBtn
           title="Contact Us"
           icon={<BsFileEarmarkText />}
-          link="/contact"
+          link="/quotation"
         />
       </div>
     </div>

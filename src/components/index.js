@@ -7,4 +7,5 @@ export { default as ServiceCard } from './ServiceCard/ServiceCard';
 export { default as Accordion } from './Accordion/Accordion';
 export { default as ContactBtn } from './ContactBtn/ContactBtn';
 export { default as SocialLinks } from './SocialLinks/SocialLinks';
-export { default as Copyright } from './Copyright/Copyright'
+export { default as Copyright } from './Copyright/Copyright';
+export { default as ServicesTabs } from './ServicesTabs/ServicesTabs';

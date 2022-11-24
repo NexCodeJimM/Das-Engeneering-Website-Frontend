@@ -56,7 +56,7 @@ const Footer = () => {
 
               <li>
                 <Link to='/about'>
-                  Commercial Brookers
+                  Commercial Brokers
                 </Link>
               </li>
           </ul>
@@ -65,7 +65,7 @@ const Footer = () => {
 
       <div className="footer-services">
         <div className="footer-services-title">
-          <h2>Quick Links</h2>
+          <h2>Company</h2>
           <div className="divider" />
         </div>
 

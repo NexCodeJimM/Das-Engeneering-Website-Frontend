@@ -1,0 +1,54 @@
+.pm-main-container {
+    width: 100%;
+}
+
+.pm-header {
+    
+    .header-img-container {
+        width: 100%;
+        height: 250px;
+
+        border-radius: 10px;
+
+        background-image: url('../../../../assets/pm-header.jpg');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+
+    .pm-title {
+        font-family: var(--font-base);
+        color: #434343;
+        text-transform: uppercase;
+
+        margin-top: 20px;
+    }
+
+    .divider {
+        width: 500px;
+        height: 1px;
+        background: var(--lightGray-color);
+
+        margin: 1rem 0;
+    }
+
+    @media screen and (max-width: 1200px) {
+        .divider {
+            width: 250px;
+        }
+    }
+}
+
+.pm-body-content {
+    font-size: 16px;
+    color: #797979;
+    
+    ul {
+        padding: 1rem 1rem;
+
+        li {
+            margin-top: 0.5rem;
+            font-weight: 300;
+        }
+    }
+}

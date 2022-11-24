@@ -10,6 +10,8 @@ import footerLogo from '../assets/Das-engeneering-logo-white.png'
 import meeting2 from '../assets/meeting2.jpg';
 import vision from '../assets/vision.png';
 import values from '../assets/value.png';
+import pmheader from '../assets/pm-header.jpg'
+import rental from '../assets/rental.jpg';
 
 export default {
     logo,
@@ -24,4 +26,6 @@ export default {
     meeting2,
     vision,
     values,
+    pmheader,
+    rental,
 };

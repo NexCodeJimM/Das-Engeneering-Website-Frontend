@@ -7,7 +7,7 @@ import { HiMenuAlt4, HiX } from 'react-icons/hi';
 import { BiPaperPlane } from 'react-icons/bi';
 
 import { Link, Route, Routes } from 'react-router-dom';
-import { Home, About, Services, Projects, Contact } from '../../pages';
+import { Home, About, Services, Projects, Contact, Quotation } from '../../pages';
 import { images } from '../../constants';
 import QuoteBtn from '../QuoteBtn/QuoteBtn';
 
@@ -49,7 +49,7 @@ const Navbar = () => {
             </ul>
               
             <div className='app__nav-btn'>
-              <Link to='/contact'>
+              <Link to='/quotation'>
                 <QuoteBtn />
               </Link>
             </div>
@@ -83,7 +83,7 @@ const Navbar = () => {
                             <Link to="/projects" onClick={() => setToggle(false)}>Projects</Link>
                           </li>
                           <li className='quote-btn-menu'>
-                            <Link to="/contact" onClick={() => setToggle(false)}><p>Get a Quote <span><BiPaperPlane /></span></p></Link>
+                            <Link to="/quotation" onClick={() => setToggle(false)}><p>Get a Quote <span><BiPaperPlane /></span></p></Link>
                           </li>
                       </ul>
 
@@ -100,6 +100,7 @@ const Navbar = () => {
             <Route path='/about' element={<About />} />
             <Route path='/services' element={<Services />} />
             <Route path='/projects' element={<Projects />} />
+            <Route path='/quotation' element={<Quotation />} />
             <Route path='/contact' element={<Contact />} />
         </Routes>
     </>

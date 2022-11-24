@@ -12,6 +12,7 @@ import vision from '../assets/vision.png';
 import values from '../assets/value.png';
 import pmheader from '../assets/pm-header.jpg'
 import rental from '../assets/rental.jpg';
+import quotation from '../assets/quotation.jpg';
 
 export default {
     logo,
@@ -28,4 +29,5 @@ export default {
     values,
     pmheader,
     rental,
+    quotation,
 };

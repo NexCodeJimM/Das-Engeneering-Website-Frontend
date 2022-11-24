@@ -1,0 +1,7 @@
+.quote-main-container {
+    padding: 3rem 4rem;
+
+    @media screen and (max-width: 1200px) {
+        padding: 1rem 1rem;
+    }
+}

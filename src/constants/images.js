@@ -13,6 +13,9 @@ import values from '../assets/value.png';
 import pmheader from '../assets/pm-header.jpg'
 import rental from '../assets/rental.jpg';
 import quotation from '../assets/quotation.jpg';
+import construction from '../assets/construction.png';
+import visionimg from '../assets/visionimg.png';
+import pageNotFound from '../assets/pageNotFound.jpg';
 
 export default {
     logo,
@@ -30,4 +33,7 @@ export default {
     pmheader,
     rental,
     quotation,
+    construction,
+    visionimg,
+    pageNotFound,
 };

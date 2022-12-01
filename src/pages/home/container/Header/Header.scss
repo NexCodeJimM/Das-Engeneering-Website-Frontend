@@ -7,9 +7,10 @@
     align-items: center;
     background-color: #fbf1de;
 
-    @media screen and (min-width: 2000px) {
-        padding-top: 3rem;
-      }
+    // iPad Pro Portrait
+    @media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:portrait) {
+        padding: 3rem 4rem;
+    }
     
     @media screen and (max-width: 1200px) {
         flex-direction: column;

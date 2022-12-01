@@ -43,5 +43,7 @@
 
     &:hover {
         margin-top: -5px;
+        background: var(--blue-color);
+        transition: all 0.5s;
     }
 }

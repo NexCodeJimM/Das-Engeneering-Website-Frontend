@@ -1,0 +1,78 @@
+.project-main-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+    width: 100%;
+    padding: 3rem 4rem;
+
+    // iPad Pro Portrait
+    @media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:portrait) {
+        justify-content: center;
+        align-items: center;
+    }
+
+    @media screen and (max-width: 1200px) {
+        flex-direction: column-reverse;
+
+        padding: 1rem 1rem;
+    }
+}
+
+.left-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+
+    .project-container-title {
+        h1 {
+            font-family: var(--font-base);
+            font-size: 120px;
+            color: var(--blue-color);
+        }
+
+        h2 {
+            padding: 0.5rem 0;
+
+            font-family: var(--font-base);
+            font-size: 50px;
+            color: var(--secondary-color);
+
+            span {
+                color: var(--blue-color);
+            }
+        }
+    }
+
+    .project-container-body {
+        font-family: var(--font-body);
+        color: var(--gray-color);
+
+        width: 400px;
+        margin-top: 10px;
+    }
+
+    @media screen and (max-width: 1200px) {
+        .project-container-body {
+            width: 300px;
+        }
+    }
+}
+
+.right-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    img {
+        width: 500px;
+    }
+
+    @media screen and (max-width: 1200px) {
+        img {
+            width: 300px;
+        }
+    }
+}

@@ -4,7 +4,7 @@ import './CommercialBrookers.scss';
 
 const CommercialBrookers = () => {
   return (
-    <div className='cb-main-container'>
+    <div className='cb-main-container' id='commercialbrokers'>
         <div className="cb-header">
             <div className="cb-header-img-container"/>
 

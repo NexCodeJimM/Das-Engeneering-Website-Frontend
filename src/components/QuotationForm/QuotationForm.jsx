@@ -9,11 +9,11 @@ const QuotationForm = () => {
       <form action="https://public.herotofu.com/v1/cd9de3f0-6c00-11ed-a377-655c67143cec" method="POST">
         <div className='form-section'>
           <label for="name">Full Name:</label>
-          <input name="Name" id="name" type="text" placeholder='John Doe' required />
+          <input name="Name" id="name" type="text" placeholder='John Rocceli' required />
         </div>
         <div className='form-section'>
           <label for="email">Email Address</label>
-          <input name="Email" id="email" type="email" placeholder='john.doe@email.com' required  />
+          <input name="Email" id="email" type="email" placeholder='john.rocceli@email.com' required  />
         </div>
         <div className='form-section'>
           <label for="number">Contact Number</label>

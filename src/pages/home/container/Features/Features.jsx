@@ -25,8 +25,7 @@ const Features = () => {
 
       <motion.div 
         className='app__cards'
-        whileInView={{ scale: [0, 1] }}
-        transition={{ duration: 1, ease: 'easeInOut' }}
+        
       >
         <ServiceCard icon={images.projectmanagement} title="Project Management"/>
         <ServiceCard icon={images.machinery} title="Heavy & Light Machinery & Equipment Rental"/>

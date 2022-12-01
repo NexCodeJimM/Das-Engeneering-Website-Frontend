@@ -43,19 +43,19 @@ const Footer = () => {
         <div className="footer-services-list">
           <ul className="services-links">
               <li>
-                <Link to='/about'>
+                <Link to='/services'>
                   Project Management
                 </Link>
               </li>
 
               <li>
-                <Link to='/about'>
+                <Link to='/services'>
                   Heavy & Light Machinery & Equipment Rental
                 </Link>
               </li>
 
               <li>
-                <Link to='/about'>
+                <Link to='/services'>
                   Commercial Brokers
                 </Link>
               </li>
@@ -107,4 +107,4 @@ const Footer = () => {
   )
 }
 
-export default Footer
+export default Footer;

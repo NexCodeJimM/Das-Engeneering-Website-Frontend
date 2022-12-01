@@ -11,7 +11,7 @@ const WhyUs = () => {
           <h1>Why choose us</h1>
 
           <p>
-            DAS Engineering is an organization that believes in delivering customer execellence and unparalleled 
+            DAS Engineering is an organization that believes in delivering customer execellence, unparalleled 
             service and product delivery.
           </p>
 
@@ -25,7 +25,7 @@ const WhyUs = () => {
           </p>
 
           <p>
-            We specialize in Project Management Solutions, Heavy & Light Machinery & Equipment Rental and other construction
+            We specialize in Project Management Solutions, Heavy & Light Machinery, Equipment Rental and other construction
             related projects.
           </p>
 

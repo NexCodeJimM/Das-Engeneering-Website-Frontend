@@ -9,11 +9,11 @@ const ContactForm = () => {
       <form action="https://public.herotofu.com/v1/6aaa1850-6c27-11ed-a377-655c67143cec" method="POST">
         <div className='contact-form-section'>
           <label for="name">Full Name</label>
-          <input name="Name" id="name" type="text" placeholder='John Doe' required />
+          <input name="Name" id="name" type="text" placeholder='John Rocceli' required />
         </div>
         <div className='contact-form-section'>
           <label for="email">Email Address</label>
-          <input name="Email" id="email" type="email" placeholder='john.doe@email.com' required  />
+          <input name="Email" id="email" type="email" placeholder='john.rocceli@email.com' required  />
         </div>
         <div className='contact-form-section'>
           <label for="subject">Subject</label>

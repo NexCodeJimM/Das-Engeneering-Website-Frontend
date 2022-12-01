@@ -10,7 +10,7 @@ const CallToAction = () => {
     <div className="app__main-cta-container">
 
       <div className="app__cta-section-title">
-        <h4>You like what you see? </h4>
+        <h4>Do you like what you see? </h4>
         <h1>Get a Quote Now!</h1>
       </div>
 

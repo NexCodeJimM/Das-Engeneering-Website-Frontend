@@ -38,7 +38,7 @@ const Header = () => {
             className="app__header-image"
             
         >
-            <img src={ images.meeting } alt="header-image" />
+            <img src={ images.meeting } alt="header" />
         </motion.div>
 
     </div>

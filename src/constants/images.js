@@ -16,6 +16,8 @@ import quotation from '../assets/quotation.jpg';
 import construction from '../assets/construction.png';
 import visionimg from '../assets/visionimg.png';
 import pageNotFound from '../assets/pageNotFound.jpg';
+import dividerIcon from '../assets/divider-icon.png';
+import dividerIconWhite from '../assets/icon-white.png';
 
 export default {
     logo,
@@ -36,4 +38,6 @@ export default {
     construction,
     visionimg,
     pageNotFound,
+    dividerIcon,
+    dividerIconWhite,
 };

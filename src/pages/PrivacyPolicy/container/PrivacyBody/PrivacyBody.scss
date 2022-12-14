@@ -1,0 +1,36 @@
+.privacyBody-main-container {
+    margin: 1.5rem 4rem;
+
+    .privacy-title {
+        font-family: var(--font-base);
+        color: var(--blue-color);
+        text-transform: uppercase;
+
+        padding: 1rem 0;
+    }
+
+    .privacy-content {
+        font-family: var(--font-body);
+        text-align: justify;
+        font-size: 12px;
+
+        line-height: 15pt;
+        padding: 0.5rem 0;
+
+        ul{
+            padding-left: 25px;
+            span {
+                font-weight: 800;
+            }
+        }
+
+        .italized {
+            text-transform: uppercase;
+            font-style: italic;
+        }
+    }
+
+    @media screen and (max-width: 1200px) {
+        margin: 1.5rem 1rem;
+    }
+}

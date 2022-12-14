@@ -7,3 +7,5 @@ export { default as Quotation } from './quotation/Quotation';
 export { default as PageNotFound } from './PageNotFound/PageNotFound';
 export { default as QuoteSubmitted } from './QuoteSubmitted/QuoteSubmitted';
 export { default as ContactSubmitted } from './ContactSubmitted/ContactSubmitted';
+export { default as TermsOfService } from './TermsOfService/TermsOfService';
+export { default as PrivacyPolicy } from './PrivacyPolicy/PrivacyPolicy';

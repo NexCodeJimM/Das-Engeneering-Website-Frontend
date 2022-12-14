@@ -1,0 +1,29 @@
+.why-main-container {
+    padding: 7rem 4rem;
+    background: var(--blue-color);
+}
+
+.why-section-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    font-family: var(--font-base);
+    text-transform: uppercase;
+
+    h1 {
+        color: white;
+
+        span {
+            color: var(--secondary-color);
+        }
+    }
+
+    @media screen and (max-width: 1200px) {
+        .why-section-title {
+            h1 {
+                text-align: center;
+            }
+        }
+    }
+}

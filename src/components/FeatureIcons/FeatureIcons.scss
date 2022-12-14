@@ -1,0 +1,32 @@
+.FI-main-container {
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+    height: 150px;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+
+    border-radius: 10px;
+
+    // background: var(--secondary-color);
+    svg {
+        font-size: 50px;
+        color: white;
+    }
+
+    .FI-title {
+        font-family: var(--font-body);
+        text-align: center;
+        color: white;
+
+        margin-top: 30px;
+    }
+
+    &:hover {
+        transform: scale(1.1);
+        transition: all 0.5s ease-out;
+
+        background-color: var(--secondary-color);
+    }
+}

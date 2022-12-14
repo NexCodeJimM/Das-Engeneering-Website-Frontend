@@ -1,0 +1,42 @@
+.divider-main-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 10px;
+
+    .app__header-line-left {
+        width: 200px;
+        height: 1px;
+        margin-top: 20px;
+        background: var(--lightGray-color);
+        margin-right: 10px;
+    }
+
+    .app__header-line-right {
+        width: 200px;
+        height: 1px;
+        margin-top: 20px;
+        background: var(--lightGray-color);
+        margin-left: 10px;
+    }
+
+    img {
+        width: 30px;
+    }
+
+    @media screen and (max-width: 1200px) {
+        .app__header-line-left {
+            width: 100px;
+        }
+
+        .app__header-line-right {
+            width: 100px;
+        }
+
+        img {
+            position: relative;
+            width: 25px;
+            top: 5px;
+        }
+    }
+}

@@ -7,7 +7,7 @@ import { HiMenuAlt4, HiX } from 'react-icons/hi';
 import { BiPaperPlane } from 'react-icons/bi';
 
 import { Link, Route, Routes } from 'react-router-dom';
-import { Home, About, Services, Projects, Contact, Quotation, PageNotFound, QuoteSubmitted, ContactSubmitted } from '../../pages';
+import { Home, About, Services, Projects, Contact, Quotation, PageNotFound, QuoteSubmitted, ContactSubmitted, TermsOfService, PrivacyPolicy } from '../../pages';
 import { images } from '../../constants';
 import QuoteBtn from '../QuoteBtn/QuoteBtn';
 
@@ -104,6 +104,8 @@ const Navbar = () => {
             <Route path='/contact' element={<Contact />} />
             <Route path='/quote-success' element={<QuoteSubmitted />} />
             <Route path='/contact-success' element={<ContactSubmitted />} />
+            <Route path='/tos' element={<TermsOfService />} />
+            <Route path='/privacy-policy' element={<PrivacyPolicy />} />
             <Route path='*' element={<PageNotFound />} />
         </Routes>
     </>

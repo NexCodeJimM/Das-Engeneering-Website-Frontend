@@ -2,7 +2,6 @@ import React from 'react';
 
 import './RecentProjects.scss';
 
-import { motion } from 'framer-motion';
 
 const RecentProjects = () => {
   return (

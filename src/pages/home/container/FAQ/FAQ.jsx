@@ -2,7 +2,6 @@ import React from 'react';
 
 import './FAQ.scss';
 
-import { motion } from 'framer-motion';
 import { images } from '../../../../constants';
 import { Accordion } from '../../../../components';
 

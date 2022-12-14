@@ -1,16 +1,24 @@
 import React from 'react';
 
-import './ServiceCard.scss'
+import './ServiceCard.scss';
 
-const ServiceCard = ({icon, title}) => {
+
+const ServiceCard = ({icon, title, description}) => {
   return (
     <div className="main">
         <div className="card-icon">
-            <img src={icon} alt={title}/>
+            {icon}
         </div>
 
         <div className="card-title">
-            <p>{title}</p>
+            <h4>{title}</h4>
+        </div>
+
+        <div className="card-description">
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam quis orci ipsum. Duis risus risus, 
+            tempor ac ligula a, accumsan mollis ante.
+          </p>
         </div>
     </div>
   )

@@ -1,0 +1,16 @@
+.terms-header-title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    h1 {
+        color: var(--darkGray-color);
+
+        font-family: var(--font-base);
+
+        span {
+            color: var(--secondary-color);
+        }
+    }
+}

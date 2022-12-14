@@ -11,3 +11,7 @@ export { default as Copyright } from './Copyright/Copyright';
 export { default as ServicesTabs } from './ServicesTabs/ServicesTabs';
 export { default as QuotationForm } from './QuotationForm/QuotationForm';
 export { default as ContactForm } from './ContactForm/ContactForm';
+export { default as Divider } from './Divider/Divider';
+export { default as FeatureIcons } from './FeatureIcons/FeatureIcons';
+export { default as DividerWhite } from './DividerWhite/DividerWhite';
+export { default as ScrollToTop } from './ScrollToTop/ScrollToTop';

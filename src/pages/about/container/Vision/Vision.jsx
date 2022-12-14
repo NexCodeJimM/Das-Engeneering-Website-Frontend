@@ -12,7 +12,7 @@ const Vision = () => {
        <div className="vision-desc">
 
         <div className="vision-title">
-          <img src={images.vision} />
+          <img src={images.vision} alt="vision"/>
           <h1>Our <span>Vision</span></h1>
         <div className='divider' />
         </div>

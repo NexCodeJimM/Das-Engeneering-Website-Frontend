@@ -17,7 +17,7 @@ const Footer = () => {
           <SocialLinks 
             icon={<FaFacebookF />}
             target='_blank'
-            link='https://facebook.com'
+            link='https://facebook.com/profile.php?id=100088871283483'
           />
 
           <SocialLinks 
@@ -36,29 +36,29 @@ const Footer = () => {
 
       <div className="footer-services">
         <div className="footer-services-title">
-          <h2>Services</h2>
+          <h2>Others</h2>
           <div className="divider" />
         </div>
 
         <div className="footer-services-list">
           <ul className="services-links">
               <li>
-                <Link to='/services'>
-                  Project Management
+                <Link to='/tos'>
+                  Terms of Service
                 </Link>
               </li>
 
               <li>
-                <Link to='/services'>
-                  Heavy & Light Machinery & Equipment Rental
+                <Link to='/privacy-policy'>
+                  Privacy Policy
                 </Link>
               </li>
 
-              <li>
+              {/* <li>
                 <Link to='/services'>
-                  Commercial Brokers
+                  Testimonials
                 </Link>
-              </li>
+              </li> */}
           </ul>
         </div>
       </div>

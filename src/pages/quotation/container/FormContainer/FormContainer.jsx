@@ -10,7 +10,7 @@ const FormContainer = () => {
     <div className='form-main-container'>
 
         <div className="image-container">
-            <img src={images.quotation}/>
+            <img src={images.quotation} alt="quote"/>
         </div>
 
         <QuotationForm />

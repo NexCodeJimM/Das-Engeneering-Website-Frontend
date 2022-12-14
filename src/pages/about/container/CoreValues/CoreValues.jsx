@@ -10,7 +10,7 @@ const CoreValues = () => {
       <div className="values-inner-container">
 
         <div className="values-title">
-          <img src={images.values} />
+          <img src={images.values} alt="values" />
           <h1>Our Core <span>Values</span></h1>
           <div className='divider' />
         </div>

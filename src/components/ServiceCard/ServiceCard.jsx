@@ -16,8 +16,7 @@ const ServiceCard = ({icon, title, description}) => {
 
         <div className="card-description">
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam quis orci ipsum. Duis risus risus, 
-            tempor ac ligula a, accumsan mollis ante.
+            {description}
           </p>
         </div>
     </div>

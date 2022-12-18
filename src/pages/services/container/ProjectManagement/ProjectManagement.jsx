@@ -15,6 +15,15 @@ const ProjectManagement = () => {
         </div>
 
         <div className="pm-body-content">
+            <p className='p-description'>
+                Project Management specialists are responsible for overseeing the successful execution of construction 
+                projects. They work with clients, contractors, and other stakeholders to ensure projects are completed 
+                on time and within budget. Key responsibilities include defining project scope, creating schedules and 
+                budgets, coordinating the work of contractors and professionals, and managing changes to the project. 
+                A bachelor's degree in construction management or a related field is often preferred, as is experience 
+                in the construction industry. Strong communication, problem-solving, and organizational skills are 
+                essential for this role.
+            </p>
             <p>Below are the list of services we offer:</p>
 
             <ul>

@@ -25,9 +25,30 @@ const Features = () => {
         <motion.div 
           className='app__cards'
         >
-          <ServiceCard icon={<AiOutlineProject />} title="Project Management"/>
-          <ServiceCard icon={<TbBackhoe />} title="Machinery & Equipment Rental"/>
-          <ServiceCard icon={<MdOutlineRealEstateAgent />} title="Commercial Brokers"/>
+          {/* PM */}
+          <ServiceCard 
+            icon={<AiOutlineProject />} 
+            title="Project Management"
+            description="Project Management specialists oversee construction projects to ensure they are completed 
+            on time and within budget. They work with clients, contractors, and other stakeholders and have strong 
+            communication, problem-solving, and organizational skills."
+          />
+          {/* Equipment Rental */}
+          <ServiceCard 
+            icon={<TbBackhoe />} 
+            title="Machinery & Equipment Rental"
+            description="Our company specializes in providing top-quality construction equipment for rent. We 
+            have a wide range of equipment available and offer flexible rental terms to meet your needs. Contact us 
+            today to learn more about our services and to request a quote."
+          />
+          {/* CB */}
+          <ServiceCard 
+            icon={<MdOutlineRealEstateAgent />} 
+            title="Commercial Brokers"
+            description="Commercial real estate brokers help businesses and investors buy, sell, and lease commercial 
+            properties. They work with clients to understand their needs, conduct market research, and negotiate sales 
+            and lease agreements."
+          />
         </motion.div>
         
         <motion.div 

@@ -1,6 +1,6 @@
 .main {
     width: 300px;
-    height: 300px;
+    height: 500px;
 
     display: flex;
     flex-direction: column;
@@ -39,6 +39,7 @@
         font-family: var(--font-body);
         text-align: justify;
         color: var(--gray-color);
+        line-height: 18pt;
     }
 
 

@@ -15,6 +15,14 @@ const CommercialBrookers = () => {
         </div>
 
         <div className="cb-body-content">
+            <p className='p-description'>
+                Commercial real estate brokers help businesses and investors buy, sell, and lease commercial 
+                properties. They work with clients to understand their needs, conduct market research, and negotiate 
+                sales and lease agreements. A bachelor's degree in real estate or a related field is often preferred, 
+                as is a state license. Strong communication, negotiation, and problem-solving skills are essential for 
+                this role.
+            </p>
+
             <p>Below are the list of services we offer:</p>
 
             <ul>

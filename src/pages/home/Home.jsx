@@ -18,8 +18,8 @@ export default class Home extends Component {
     return (
       <>
         <Header />
-        <Features />
         <WhyDas />
+        <Features />
         <CTA />
       </>
     )

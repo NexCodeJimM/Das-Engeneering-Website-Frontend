@@ -15,3 +15,7 @@ export { default as Divider } from './Divider/Divider';
 export { default as FeatureIcons } from './FeatureIcons/FeatureIcons';
 export { default as DividerWhite } from './DividerWhite/DividerWhite';
 export { default as ScrollToTop } from './ScrollToTop/ScrollToTop';
+export { default as Card } from './Card/Card';
+export { default as FullPageHeader } from './FullPageHeader/FullPageHeader';
+export { default as SectionHeader } from './SectionHeader/SectionHeader';
+

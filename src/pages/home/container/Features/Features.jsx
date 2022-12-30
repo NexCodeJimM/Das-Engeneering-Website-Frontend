@@ -14,7 +14,11 @@ const Features = () => {
     <>
       <div className="features-main-container">
           {/* Section Header */}
-        <motion.div className='app__section-title'>
+        <motion.div 
+          className='app__section-title'
+          whileInView={{ opacity: [0, 1] }}
+          transition={{ duration: 0.25, ease: 'easeInOut'}}
+        >
           <div className="title-header">
             <h1>Our <span>Services</span></h1>
           </div>
@@ -24,6 +28,8 @@ const Features = () => {
 
         <motion.div 
           className='app__cards'
+          whileInView={{ opacity: [0, 1] }}
+          transition={{ duration: 0.25, ease: 'easeInOut'}}
         >
           {/* PM */}
           <ServiceCard 

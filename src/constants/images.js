@@ -18,6 +18,14 @@ import visionimg from '../assets/visionimg.png';
 import pageNotFound from '../assets/pageNotFound.jpg';
 import dividerIcon from '../assets/divider-icon.png';
 import dividerIconWhite from '../assets/icon-white.png';
+import experise from '../assets/expertise.jpeg';
+import safety from '../assets/safety.jpeg';
+import versatile from '../assets/versatile.jpeg';
+import qualityWork from '../assets/quality.jpg';
+import qualityWorkFull from '../assets/quality.jpeg';
+import customerSatisfaction from '../assets/customerSatisfaction.jpeg';
+import innovativeSolutions from '../assets/innovativeSolutions.jpg';
+import innovativeSolutionsFull from '../assets/innovativeSolutions.jpeg';
 
 export default {
     logo,
@@ -40,4 +48,12 @@ export default {
     pageNotFound,
     dividerIcon,
     dividerIconWhite,
+    experise,
+    safety,
+    versatile,
+    qualityWork,
+    qualityWorkFull,
+    customerSatisfaction,
+    innovativeSolutions,
+    innovativeSolutionsFull,
 };

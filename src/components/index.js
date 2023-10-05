@@ -18,4 +18,5 @@ export { default as ScrollToTop } from './ScrollToTop/ScrollToTop';
 export { default as Card } from './Card/Card';
 export { default as FullPageHeader } from './FullPageHeader/FullPageHeader';
 export { default as SectionHeader } from './SectionHeader/SectionHeader';
+export { default as ProjectCard } from './ProjectCard/ProjectCard';
 

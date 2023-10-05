@@ -26,6 +26,7 @@ import qualityWorkFull from '../assets/quality.jpeg';
 import customerSatisfaction from '../assets/customerSatisfaction.jpeg';
 import innovativeSolutions from '../assets/innovativeSolutions.jpg';
 import innovativeSolutionsFull from '../assets/innovativeSolutions.jpeg';
+import projectImage from '../assets/projectImage.jpeg';
 
 export default {
     logo,
@@ -56,4 +57,5 @@ export default {
     customerSatisfaction,
     innovativeSolutions,
     innovativeSolutionsFull,
+    projectImage,
 };

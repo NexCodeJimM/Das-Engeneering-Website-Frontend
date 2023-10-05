@@ -15,3 +15,4 @@ export { default as Safety } from './FullCardPage/Safety/Safety';
 export { default as Versatility } from './FullCardPage/Versatility/Versatility';
 export { default as CustomerSatisfaction } from './FullCardPage/CustomerSatisfaction/CustomerSatisfaction';
 export { default as InnovativeSolutions } from './FullCardPage/InnovativeSolutions/InnovativeSolutions';
+export { default as OurProjects } from './OurProjects/OurProjects';

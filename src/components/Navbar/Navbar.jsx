@@ -25,6 +25,7 @@ import {
 	Versatility,
 	CustomerSatisfaction,
 	InnovativeSolutions,
+	OurProjects,
 } from "../../pages";
 import { images } from "../../constants";
 import QuoteBtn from "../QuoteBtn/QuoteBtn";
@@ -122,7 +123,7 @@ const Navbar = () => {
 				<Route path="/" element={<Home />} />
 				<Route path="/about" index element={<About />} />
 				<Route path="/services" element={<Services />} />
-				<Route path="/projects" element={<Projects />} />
+				<Route path="/projects" element={<OurProjects />} />
 				<Route path="/quotation" element={<Quotation />} />
 				<Route path="/contact" element={<Contact />} />
 				<Route path="/quote-success" element={<QuoteSubmitted />} />
